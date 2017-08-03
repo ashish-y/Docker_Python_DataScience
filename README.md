@@ -5,14 +5,15 @@ Some DataScience Test with docker + python + SciKit-learn
 <ul>
   <li>Install Docker</li>
   <li>clone the Repo</li>
-  <li>>docker -t <tag_name> .</li>(example - docker -t dspython .) 
-  <li> docker run <tag_name></li>(example - docker run dspython)
+  <li>>docker -t "tag_name" .</li>(example - docker -t dspython .) 
+  <li> docker run "tag_name"</li>(example - docker run dspython)
 </ul>
 
 app.py:
-      Uses scikit-learn machine learning library (from requirements.txt) and takes sample fruit dataset (height,weight,texture) and predicts the fruit based on the input dataset. 
+     
+Uses scikit-learn machine learning library (from requirements.txt) and takes sample fruit dataset (height,weight,texture) and predicts the fruit based on the input dataset. 
 
-#Dcoker
+#Docker
 #Python
 #SciKit-learn
 #MachineLearning
