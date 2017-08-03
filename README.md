@@ -5,7 +5,7 @@ Some DataScience Test with docker + python + SciKit-learn
 <ul>
   <li>Install Docker</li>
   <li>clone the Repo</li>
-  <li>>docker -t "tag_name" .</li>(example - docker -t dspython .) 
+  <li>>docker build -t "tag_name" .</li>(example - docker build -t dspython .) 
   <li> docker run "tag_name"</li>(example - docker run dspython)
 </ul>
 
